@@ -232,7 +232,7 @@ footer p {
         <ul class="menu">
             <li><a href="index.html">Home</a></li>
             <li><a href="meetup.html">meetups click</a></li>
-            <li><a href="R-lib.html">E-library</a></li>
+            <li><a href="html/html/homepage/index.html">E-library</a></li>
             <li><a href="aboutus.html">about us</a></li>
         </ul>
        
@@ -260,7 +260,23 @@ footer p {
 
     }
 
-    .te
+    @media (max-width:477px) {
+        .cont{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+        .wwa h1{
+            padding: 0;
+            margin: 0;
+        }
+        .para{
+            padding: 0 20px;
+        }
+        .menu li{
+            text-align: center;
+        }
+    }
    </style>
     <section>
         <div class="container">
